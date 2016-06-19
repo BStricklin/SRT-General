@@ -1,0 +1,64 @@
+1                   Run using August 2012 Version of PROPEP32
+  Case  1 of  1     11 Sep 2014     1:25:27.51 am
+
+   CODE                                   WEIGHT    D-H  DENS      COMPOSITION
+    137 AMMONIUM PERCHLORATE (AP)        696.000   -602  0.07040    1CL  4H   1N   4O 
+     63 ALUMINUM (PURE CRYSTALINE)       160.000      0  0.09760    1AL
+    541 IRON OXIDE                         4.000  -1230  0.18400    3O   2FE
+    779 POLYBUTADIENE/ACRYLONITRILE CO   120.000    314  0.00001  653C 854H  19O  72N 
+    382 EPON 828                          20.000      0  0.00001   24H  21C   4O 
+
+ THE PROPELLANT DENSITY IS 0.00007 LB/CU-IN OR  0.0020 GM/CC
+ THE TOTAL PROPELLANT WEIGHT IS 1000.0000 GRAMS
+
+ NUMBER OF GRAM ATOMS OF EACH ELEMENT PRESENT IN INGREDIENTS
+
+   35.335258 H     9.056780 C     6.786124 N    24.231987 O 
+    5.930319 AL    5.923555 CL    0.050094 FE
+
+ ****************************CHAMBER RESULTS FOLLOW    *****************************
+
+  T(K)  T(F)  P(ATM)   P(PSI) ENTHALPY  ENTROPY   CP/CV     GAS   RT/V
+ 3526. 5888.   68.02  1000.00  -386.23  2247.09  1.1727 34.408    1.977
+ 
+ SPECIFIC HEAT (MOLAR) OF GAS AND TOTAL=    9.702   12.477
+ NUMBER MOLS GAS AND CONDENSED=  34.4079   2.7974
+
+   8.77297 H2         8.40452 CO         5.50046 H2O        5.01952 HCl     
+   3.37438 N2         2.79710 Al2O3*     1.32090 H          0.64952 CO2     
+   0.49932 Cl         0.39770 HO         0.15534 AlCl       0.06339 AlOCl   
+   0.05148 AlCl2      0.03530 NO         0.03448 O          0.02890 FeCl2   
+   0.02779 AlHO2      0.01645 Fe         0.01524 AlHO       0.00904 AlO     
+  8.47E-03 O2        6.19E-03 AlCl3     3.73E-03 Al        2.07E-03 FeCl    
+  1.57E-03 FeO       1.26E-03 Al2O      1.16E-03 Cl2       1.06E-03 CHO     
+  8.25E-04 FeH2O2    6.50E-04 AlH       5.48E-04 COCl      4.99E-04 NH3     
+  4.92E-04 OCl       4.22E-04 HOCl      3.27E-04 N         2.70E-04 NH2     
+  2.57E-04 CNH       1.88E-04 Al2O2     1.60E-04 NH        1.22E-04 AlO2    
+  1.09E-04 HO2       8.12E-05 CH2O      7.06E-05 NHO       2.82E-05 CNHO    
+  2.72E-05 FeCl3     2.21E-05 AlHO    
+
+ THE MOLECULAR WEIGHT OF THE MIXTURE IS   26.878
+
+ ****************************EXHAUST RESULTS FOLLOW    *****************************
+
+  T(K)  T(F)  P(ATM)   P(PSI) ENTHALPY  ENTROPY   CP/CV     GAS   RT/V
+ 2286. 3656.    1.00    14.69 -1183.66  2247.09  1.1915 33.203    0.030
+ 
+ SPECIFIC HEAT (MOLAR) OF GAS AND TOTAL=    9.399   11.351
+ NUMBER MOLS GAS AND CONDENSED=  33.2032   2.9639
+
+   9.29961 H2         8.19288 CO         5.75289 HCl        5.40448 H2O     
+   3.39256 N2         2.96351 Al2O3&     0.86308 CO2        0.15820 H       
+   0.07031 Cl         0.04765 FeCl2      0.01483 HO         0.00193 Fe      
+  1.11E-03 AlCl      7.58E-04 AlOCl     5.71E-04 AlCl2     4.67E-04 NO      
+  3.44E-04 AlCl3     1.69E-04 O         1.38E-04 AlHO2     1.32E-04 FeCl    
+  7.75E-05 FeH2O2    5.74E-05 AlHO      4.13E-05 O2        4.10E-05 FeO     
+  4.04E-05 Cl2       2.15E-05 NH3     
+
+ THE MOLECULAR WEIGHT OF THE MIXTURE IS   27.649
+
+ **********PERFORMANCE:  FROZEN ON FIRST LINE, SHIFTING ON SECOND LINE**********
+
+ IMPULSE   IS EX      T*      P*      C*    ISP*  OPT-EX  D-ISP      A*M   EX-T
+   256.2  1.1789   3237.   38.68  5105.3            9.26    0.5  0.15871  1858.
+   263.5  1.1434   3309.   39.16  5159.2   198.4   10.58    0.5  0.16039  2286.

@@ -1,0 +1,100 @@
+ %% PLEASE DO NOT MODIFY OR DELETE THIS FILE! %% 
+ %% This file contains information about the installation of an application. %% 
+ %% It will be used to automatically remove all application components from your computer if you choose to do so. %% 
+
+
+NOTE: Beginning of the bootstrapper section
+
+CONFIG: Title: "GDL_Propep32"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\Windows\System32\VB6STKIT.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\Windows\System32\COMCAT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\stdole2.tlb"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\asycfilt.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\olepro32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\oleaut32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\Windows\System32\msvbvm60.dll"
+(File currently on disk was already up to date)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\stdole2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\olepro32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\oleaut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\msvbvm60.dll"
+
+NOTE: End of the bootstrapper section
+
+NOTE: Now spawning the main Setup program 'Setup1.exe'....
+
+ACTION: CreateDir: "k:\Propep"
+
+ACTION: CreateDir: "C:\Users\Emmalee\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GDL_Propep32"
+
+ACTION: PrivateFile: "k:\Propep\Setup.pep"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\PEPCODED.DAF"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\JANNAF.DAF"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\propep32.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\initial.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\CP_AP_Al.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\CP_AN_Mg.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\AP_Al_R45.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\AP_Al.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\AN_AD_Si.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\AN_AD_18.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\AN_AD_14.gdf"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\Windows\system32\COMDLG32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: PrivateFile: "k:\Propep\GDL_Propep32.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: DllSelfRegister: "C:\Windows\system32\COMDLG32.OCX"
+
+ACTION: ShellLink: "GDL_Propep32", "GDL_Propep32"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\GDL_Propep32.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\GDL_Propep32.exe", ""
+

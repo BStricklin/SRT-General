@@ -1,0 +1,19 @@
+Diameter (inches)
+Cd average drag coefficient
+Prop_Wt (pounds)
+Empty_Wt (pounds) vehicle weight excluding propellant and payload 
+Payload_Wt (pounds)
+Duration (secs)
+Initial Altitude (ft)
+Initial Velocity (ft/sec)
+
+
+Atmospheric density is calculated by an empirical formula.
+The formula emulates National Oceanic and Atmospheric Administration data.
+If you wish to see how a vehicle performs without an atmosphere, enter
+a Cd value of zero.
+
+Drag=(1/2)(Cd)(dens)(Af)(v^2)
+
+Thrust is held constant in this module.
+
